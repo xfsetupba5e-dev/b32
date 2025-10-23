@@ -1,4 +1,23 @@
-import { readdirSync, readFileSync, existsSync, writeFileSync, mkdirSync } from 'fs'
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "WORKER-NAME",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-04",
+  "observability": {
+    "enabled": true
+  },
+
+  // Add this to your wrangler.jsonc
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "02e86695e42846239f7ddd37706fad39",
+      
+      // Optional: preview_id used when running `wrangler dev` for local dev
+      "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
+    }
+  ]
+}import { readdirSync, readFileSync, existsSync, writeFileSync, mkdirSync } from 'fs'
 import { resolve, extname } from 'path'
 import { abi } from 'thor-devkit';
 
