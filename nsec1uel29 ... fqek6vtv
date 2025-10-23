@@ -1,0 +1,33 @@
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012066f52fa7c5d48034aa1f3f1a010727168129441c4f414cfa7bbcf35d01c4e8330a",
+      "host": "keybase.io",
+      "kid": "012066f52fa7c5d48034aa1f3f1a010727168129441c4f414cfa7bbcf35d01c4e8330a",
+      "uid": "547573231b411bddb32902527b2d3619",
+      "username": "bnlybnuqebzeheki"
+    },
+    "merkle_root": {
+      "ctime": 1760858686,
+      "hash": "ae8b34898723bd8f1661e020bf8a84f475803a4a5fe7d57a1a1d0f37454a5d3cfe546244d1c95e20a8b60fe3fbca5ff0bc832631fc8a1996175a15b98331d6be",
+      "hash_meta": "e0b33f6af3385f1a843d978da4e85d7d03f6de6bdb232ff7da9117fd4f2f4024",
+      "seqno": 27178064
+    },
+    "service": {
+      "domain": "pnpb3593.yahoo.com",
+      "entropy": "fmJAZEabXYuGbVqNk6ngg3WP",
+      "protocol": "dns"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.3"
+  },
+  "ctime": 1760859037,
+  "expire_in": 504576000,
+  "prev": "4f958f72583abd0ae165d844773b5e985daa29d8877c56c04dc3768a0c9bc924",
+  "seqno": 5,
+  "tag": "signature"
+}
